@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2013 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -40,7 +40,7 @@ TARGET_KERNEL_SOURCE  := kernel/sony/apq8064
 USE_DEVICE_SPECIFIC_CAMERA := true
 
 # CM Hardware
-BOARD_HARDWARE_CLASS := device/sony/fusion3-common/cmhw
+BOARD_HARDWARE_CLASS := device/sony/fusion3-common/mkhw
 
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
