@@ -59,8 +59,11 @@ BLUETOOTH_HCI_USE_MCT := true
 TARGET_PROVIDES_CAMERA_HAL := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# CM Hardware
-BOARD_HARDWARE_CLASS := device/sony/fusion3-common/mkhw
+# MK Hardware
+BOARD_USES_MOKEE_HARDWARE := true
+BOARD_HARDWARE_CLASS := \
+    hardware/mokee/mkhw   \
+    device/sony/fusion3-common/mkhw
 
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
