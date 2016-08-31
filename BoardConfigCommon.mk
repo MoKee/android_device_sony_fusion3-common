@@ -59,9 +59,9 @@ BLUETOOTH_HCI_USE_MCT := true
 TARGET_PROVIDES_CAMERA_HAL := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# CM Hardware
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS := hardware/cyanogen/cmhw
+# MK Hardware
+BOARD_USES_MOKEE_HARDWARE := true
+BOARD_HARDWARE_CLASS := hardware/mokee/mkhw
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
 
 # GPS
