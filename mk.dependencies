@@ -22,5 +22,9 @@
   {
     "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
+  },
+  {
+    "repository": "android_vendor_sony_fusion3-common",
+    "target_path": "vendor/sony/fusion3-common"
   }
 ]
